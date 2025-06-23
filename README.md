@@ -1,4 +1,4 @@
-## ¿EN QE ORGANISMO/GRUPO DE ORGANISMOS VAS A TRABAJAR?
+## ¿EN QUE ORGANISMO/GRUPO DE ORGANISMOS VAS A TRABAJAR?
 Mariposas (Lepidoptera), en la familia Riodinidae, conocidas por una amplia
 diversidad de patrones de coloraciÃ³n
 
