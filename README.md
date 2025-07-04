@@ -4,54 +4,51 @@ diversidad de patrones de coloracion
 
 
 ## BREVEMENTE DESCRIBE QUE PIENSAS HACER EN TU PROYECTO
-Mi ptoyecto busca analizar como el color de las mariposas  este grupo cambia
-cambia dependiendo del clima. Analizanod datos para ver si existe relacion entre
-color y ambiente
+Generar un árbol filogenético que represente las relaciones evolutivas dentro de Riodinidae, usando datos moleculares, para clarificar la sistemática y evolución de dicho grupo.
 
 
 ## PROGRAMAS
-R
-IQ-TREE
-FigTree
-ImageJ
-Python
+* R
+* IQ-TREE
+* FigTree
+* Muscle
 
 
 ## FOTO DEL ORGANISMO 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/c/c4/Brauner_W%C3%BCrfelfalter_%28Hamearis_lucina%29_02.jpg)
 
 ## NOMBRE DE TU PROYECTO
-Coloracion de las mariposas frente al ambiente
+Reconstrucción filogenética de la familia Riodinidae
 
 ## AUTORES DEL PROYECTO
 Mikaela Pavon-Naranjo
 
 ## PROPOSITO DEL PROGRAMA DE TU PROYECTO
-El proyecto busca el analizar los efectos del ambiente sobre el color que expresan las mariposas.Se usarán árboles filogenéticos, datos de distribución geográfica y análisis de imágenes para detectar patrones de adaptación del color en relación con el clima.
-El analisis puede ayudar a entender cómo las especies responden a diferentes ambientes y si determiados patrones o colores proveen de ventaja para el individuo bajo distintas condiciones ambientales.
+El proyecto busca la reconstrucción y análisis de la filogenia de la familia Riodinidae basandonos en datos moleculares. Esto nos facilitará el conocer cómo se relacionan entre sí los diversos grupos de mariposas y las especies en ellos. Además de que nos ayudará a saber si los grupos forman un único conjunto de descendientes comunes y conocer su distribución según el lugar del que se originan.
 
 ## REQUISITOS PARA EJECUTAR EL PROGRAMA
--Tener descargado R con los siguientes programas: ggplot2, vegan y ape (De análisis filogenético)
--Python 
--IQ-TREE
--FigTree
--ImageJ (Análisis de color)
+* Descargarnos secuencias de ADN de las especies de Riodinidae en formato FASTA
+* Tener descargado R con los siguientes programas: ggplot2, vegan y ape (De análisis filogenético)
+* IQ-TREE para realizar el árbol filogenético
+* FigTree para editar los árboles
 
 
-## COMO USAR EL PROGRAMA
-# DATOS
-Fotografías para el análisis en una carpeta en formato .jpg
-Archivo .tree de la filogenia de la familia Riodinidae en fortmato fasta
 
-# RSTUDIO
-$library(ape)
-$tree <- read.tree ("Filogenia Riodinidae.tree")}
-$library(ggplot2)
-$plot(tree)
+# COMO USAR EL PROGRAMA
+## DATOS
+* Descargar secuencias de ADN en formato FASTA
+* Alinear las secuencias con Muscle
 
-## FigTree/IQ-TREE
-Descargar el archivo con la filogenia y abrirlo en FigTree
-File
-Open
-Escoger formato fasta
+## IQTREE
+* Subir archivo de Muscle
+* Ejecutar análisis para ver el mejor modelo
+* Recontrucción del árbol de máxima verosimilitud
+
+## FigTree
+* Abrir archivo de IQTREE
+* Interpretar
+
+## R
+* Importar árbol con paquete "ape"
+* Análisis de distancias
 
