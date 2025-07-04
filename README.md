@@ -18,19 +18,19 @@ Python
 
 
 ## FOTO DEL ORGANISMO 
-![alt text]https://upload.wikimedia.org/wikipedia/commons/c/c4/Brauner_W%C3%BCrfelfalter_%28Hamearis_lucina%29_02.jpg
+![alt text](https://upload.wikimedia.org/wikipedia/commons/c/c4/Brauner_W%C3%BCrfelfalter_%28Hamearis_lucina%29_02.jpg)
 
-##NOMBRE DE TU PROYECTO
+## NOMBRE DE TU PROYECTO
 Coloracion de las mariposas frente al ambiente
 
-##AUTORES DEL PROYECTO
+## AUTORES DEL PROYECTO
 Mikaela Pavon-Naranjo
 
-##PROPOSITO DEL PROGRAMA DE TU PROYECTO
+## PROPOSITO DEL PROGRAMA DE TU PROYECTO
 El proyecto busca el analizar los efectos del ambiente sobre el color que expresan las mariposas.Se usarán árboles filogenéticos, datos de distribución geográfica y análisis de imágenes para detectar patrones de adaptación del color en relación con el clima.
 El analisis puede ayudar a entender cómo las especies responden a diferentes ambientes y si determiados patrones o colores proveen de ventaja para el individuo bajo distintas condiciones ambientales.
 
-##REQUISITOS PARA EJECUTAR EL PROGRAMA
+## REQUISITOS PARA EJECUTAR EL PROGRAMA
 -Tener descargado R con los siguientes programas: ggplot2, vegan y ape (De análisis filogenético)
 -Python 
 -IQ-TREE
@@ -38,18 +38,18 @@ El analisis puede ayudar a entender cómo las especies responden a diferentes am
 -ImageJ (Análisis de color)
 
 
-##COMO USAR EL PROGRAMA
-#DATOS
+## COMO USAR EL PROGRAMA
+# DATOS
 Fotografías para el análisis en una carpeta en formato .jpg
 Archivo .tree de la filogenia de la familia Riodinidae en fortmato fasta
 
-#RSTUDIO
+# RSTUDIO
 $library(ape)
 $tree <- read.tree ("Filogenia Riodinidae.tree")}
 $library(ggplot2)
 $plot(tree)
 
-##FigTree/IQ-TREE
+## FigTree/IQ-TREE
 Descargar el archivo con la filogenia y abrirlo en FigTree
 File
 Open
