@@ -53,7 +53,7 @@ El proyecto busca la reconstrucción y análisis de la filogenia de la familia R
 * Análisis de distancias
 
 ## PROGRAMAS
-* [Programas]([A](https://github.com/MikaelaPa/PROGRAMS.git))
+* [Programas]([https://github.com/MikaelaPa/PROGRAMS.git])
 
 ## SCRIPTS
-* [Scrips]([Igual](https://github.com/MikaelaPa/SCRIPTS.git))
+* [Scrips]([https://github.com/MikaelaPa/SCRIPTS.git])
