@@ -51,15 +51,3 @@ El proyecto busca la reconstrucción y análisis de la filogenia de la familia R
 ## R
 * Importar árbol con paquete "ape"
 * Análisis de distancias
-
-# SCRIPT
-* Descargar secuencias: esearch -db nucleotide -query "Riodinidae[Organism] AND COI" | efetch -format fasta > Riodinidae_COI.fasta
-* Alineamiento: ./muscle3.8.31_i86linux64 -in Riodinidae_COI.fasta -out muscle_Riodinidae_COI.fasta -maxiters 1 -diags
-* IQ-tree: module load iqtree/2.2.2.6
-* for filename in musscle_*
-> do
-> iqtree2 -s $filename
-> done 
-* En una nueva ventana, fuera de Hoffman2 y en mi escritorio descargo el output:  scp dechavez@hoffman2.idre.ucla.edu:/u/scratch/d/dechavez/Bioinformatica-PUCE/RediseBio/MikaelaPa/(OUTPUT DE IQTREE) .
-* Abro figtree → File → Abro concord.cf.tree → Acepto lo que dice label
-
