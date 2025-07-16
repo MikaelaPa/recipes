@@ -12,6 +12,7 @@ Generar un árbol filogenético que represente las relaciones evolutivas dentro 
 * IQ-TREE
 * FigTree
 * Muscle
+* ATOM
 
 
 ## FOTO DEL ORGANISMO 
